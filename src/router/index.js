@@ -23,6 +23,12 @@ const routes = [
     name: 'Gomoku',
     component: () => import('../views/Gomoku.vue'),
     meta: { requiresAuth: true }
+  },
+  {
+    path: '/games/math',
+    name: 'MathGame',
+    component: () => import('../views/MathGame.vue'),
+    meta: { requiresAuth: true }
   }
 ]
 

@@ -10,6 +10,11 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 ## 更新日志
 
 ### 20250428
+- 新增数学答题游戏
+  - 随机生成20道数学题
+  - 支持加减乘除运算
+  - 实时计分系统
+  - 智能评分反馈
 - 新增五子棋游戏
   - 支持双人对战
   - 自动判断胜负
@@ -17,6 +22,13 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
   - 获胜后自动锁定棋盘
 
 ## 游戏列表
+
+### 数学答题
+- 随机生成10000以内的加减乘除题目
+- 每题5分，总分100分
+- 实时显示得分和剩余题目
+- 智能评分反馈系统
+- 支持重新开始游戏
 
 ### 五子棋
 - 经典的双人对战五子棋游戏

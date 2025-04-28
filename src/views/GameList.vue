@@ -36,6 +36,15 @@ const games = ref([
     category: '棋牌游戏',
     rating: 4.5,
     route: '/games/gomoku'
+  },
+  {
+    id: 2,
+    title: '数学答题',
+    description: '随机生成数学题目，测试你的计算能力',
+    cover: 'https://via.placeholder.com/300x200',
+    category: '益智游戏',
+    rating: 4.8,
+    route: '/games/math'
   }
 ])
 
