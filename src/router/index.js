@@ -29,6 +29,13 @@ const routes = [
     name: 'MathGame',
     component: () => import('../views/MathGame.vue'),
     meta: { requiresAuth: true }
+  },
+    // 贪吃蛇游戏
+  {
+    path: '/games/snake',
+    name: 'Snake',
+    component: () => import('../views/SnakeGame.vue'),
+    meta: { requiresAuth: true }
   }
 ]
 

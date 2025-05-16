@@ -45,6 +45,12 @@ const games = ref([
     category: '益智游戏',
     rating: 4.8,
     route: '/games/math'
+  },
+  {
+    id: 3,
+    title: '贪吃蛇',
+    description: '经典贪吃蛇游戏，使用方向键控制蛇的移动',
+    route: '/games/snake'
   }
 ])
 
